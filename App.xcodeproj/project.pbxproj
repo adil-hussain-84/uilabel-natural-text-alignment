@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		BCA60A3E234B5EFF00CC713D /* Incorrect Natural Text Alignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Incorrect Natural Text Alignment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCA60A3E234B5EFF00CC713D /* App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCA60A41234B5EFF00CC713D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BCA60A43234B5EFF00CC713D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		BCA60A45234B5EFF00CC713D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -40,7 +40,7 @@
 		BCA60A35234B5EFF00CC713D = {
 			isa = PBXGroup;
 			children = (
-				BCA60A40234B5EFF00CC713D /* Incorrect Natural Text Alignment */,
+				BCA60A40234B5EFF00CC713D /* App */,
 				BCA60A3F234B5EFF00CC713D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,12 +48,12 @@
 		BCA60A3F234B5EFF00CC713D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BCA60A3E234B5EFF00CC713D /* Incorrect Natural Text Alignment.app */,
+				BCA60A3E234B5EFF00CC713D /* App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BCA60A40234B5EFF00CC713D /* Incorrect Natural Text Alignment */ = {
+		BCA60A40234B5EFF00CC713D /* App */ = {
 			isa = PBXGroup;
 			children = (
 				BCA60A41234B5EFF00CC713D /* AppDelegate.swift */,
@@ -64,15 +64,15 @@
 				BCA60A4C234B5F0000CC713D /* LaunchScreen.storyboard */,
 				BCA60A4F234B5F0000CC713D /* Info.plist */,
 			);
-			path = "Incorrect Natural Text Alignment";
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BCA60A3D234B5EFF00CC713D /* Incorrect Natural Text Alignment */ = {
+		BCA60A3D234B5EFF00CC713D /* App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BCA60A52234B5F0000CC713D /* Build configuration list for PBXNativeTarget "Incorrect Natural Text Alignment" */;
+			buildConfigurationList = BCA60A52234B5F0000CC713D /* Build configuration list for PBXNativeTarget "App" */;
 			buildPhases = (
 				BCA60A3A234B5EFF00CC713D /* Sources */,
 				BCA60A3B234B5EFF00CC713D /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = "Incorrect Natural Text Alignment";
+			name = App;
 			productName = "Incorrect Natural Text Alignment";
-			productReference = BCA60A3E234B5EFF00CC713D /* Incorrect Natural Text Alignment.app */;
+			productReference = BCA60A3E234B5EFF00CC713D /* App.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BCA60A39234B5EFF00CC713D /* Build configuration list for PBXProject "Incorrect Natural Text Alignment" */;
+			buildConfigurationList = BCA60A39234B5EFF00CC713D /* Build configuration list for PBXProject "App" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BCA60A3D234B5EFF00CC713D /* Incorrect Natural Text Alignment */,
+				BCA60A3D234B5EFF00CC713D /* App */,
 			);
 		};
 /* End PBXProject section */
@@ -285,7 +285,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Incorrect Natural Text Alignment/Info.plist";
+				INFOPLIST_FILE = App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,7 +302,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Incorrect Natural Text Alignment/Info.plist";
+				INFOPLIST_FILE = App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -317,7 +317,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BCA60A39234B5EFF00CC713D /* Build configuration list for PBXProject "Incorrect Natural Text Alignment" */ = {
+		BCA60A39234B5EFF00CC713D /* Build configuration list for PBXProject "App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BCA60A50234B5F0000CC713D /* Debug */,
@@ -326,7 +326,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BCA60A52234B5F0000CC713D /* Build configuration list for PBXNativeTarget "Incorrect Natural Text Alignment" */ = {
+		BCA60A52234B5F0000CC713D /* Build configuration list for PBXNativeTarget "App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BCA60A53234B5F0000CC713D /* Debug */,
