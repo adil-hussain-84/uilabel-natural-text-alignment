@@ -1,0 +1,1 @@
+This repository contains a simple iOS application which demonstrates the problem of Arabic text not right-aligning within `UILabels` which have a [textAlignment](https://developer.apple.com/documentation/uikit/uilabel/1620541-textalignment) value of [NSTextAlignment.natural](https://developer.apple.com/documentation/uikit/nstextalignment/natural).
