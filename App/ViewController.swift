@@ -15,6 +15,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        label.text = "\u{202E}العربية\u{202C}"
+        label.text = getStringWithDirectionalFormattingCharacters()
+    }
+    
+    private func getStringWithDirectionalFormattingCharacters() -> String {
+        return "\u{202E}العربية\u{202C}"
     }
 }
