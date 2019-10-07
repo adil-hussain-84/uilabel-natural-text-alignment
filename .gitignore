@@ -1,0 +1,8 @@
+# Files
+.DS_Store
+
+# Folders
+xcuserdata
+/build
+/Index
+/iOS/build
