@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -16,41 +16,41 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bfq-Z9-aFv">
-                                <rect key="frame" x="8" y="52" width="398" height="61"/>
+                                <rect key="frame" x="16" y="60" width="382" height="61"/>
                                 <string key="text">I expected the Arabic text in the label below to be right-aligned given that I specified natural text alignment but as you can it doesn't work like this.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="العربية" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NbT-wO-huR">
-                                <rect key="frame" x="8" y="121" width="398" height="21"/>
+                                <rect key="frame" x="16" y="129" width="382" height="21"/>
                                 <color key="backgroundColor" systemColor="systemFillColor" red="0.47058823529999999" green="0.47058823529999999" blue="0.50196078430000002" alpha="0.20000000000000001" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I added explicit directional formatting characters in the label below but as you can see it does not help." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zto-zH-Yc7">
-                                <rect key="frame" x="8" y="150" width="378" height="61"/>
+                                <rect key="frame" x="16" y="158" width="382" height="61"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label text to be replaced at runtime" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wgP-8O-WbH">
-                                <rect key="frame" x="8" y="219" width="398" height="21"/>
+                                <rect key="frame" x="16" y="227" width="382" height="21"/>
                                 <color key="backgroundColor" systemColor="secondarySystemFillColor" red="0.47058823529999999" green="0.47058823529999999" blue="0.50196078430000002" alpha="0.16" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kON-N2-phe">
-                                <rect key="frame" x="8" y="248" width="398" height="61"/>
+                                <rect key="frame" x="16" y="256" width="382" height="61"/>
                                 <string key="text">I also changed the text in the label below to be an attributed string with natual text direction but as you can see it makes no difference.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qNr-x7-9pp" userLabel="Label with attributed text">
-                                <rect key="frame" x="8" y="317" width="398" height="20"/>
+                                <rect key="frame" x="16" y="325" width="382" height="20"/>
                                 <color key="backgroundColor" systemColor="systemFillColor" red="0.47058823529999999" green="0.47058823529999999" blue="0.50196078430000002" alpha="0.20000000000000001" colorSpace="custom" customColorSpace="sRGB"/>
                                 <attributedString key="attributedText">
                                     <fragment content="العربية">
@@ -65,24 +65,24 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="kON-N2-phe" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="5YY-uK-HH0"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="kON-N2-phe" secondAttribute="trailing" constant="8" id="Amk-Op-b19"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="Zto-zH-Yc7" secondAttribute="trailing" constant="8" id="Cex-Ks-IeI"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="wgP-8O-WbH" secondAttribute="trailing" constant="8" id="ITx-0n-mDQ"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qNr-x7-9pp" secondAttribute="trailing" constant="8" id="Jmj-Uk-huM"/>
-                            <constraint firstItem="Zto-zH-Yc7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="JqT-og-Smt"/>
+                            <constraint firstItem="kON-N2-phe" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="5YY-uK-HH0"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="kON-N2-phe" secondAttribute="trailing" constant="16" id="Amk-Op-b19"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Zto-zH-Yc7" secondAttribute="trailing" constant="16" id="Cex-Ks-IeI"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="wgP-8O-WbH" secondAttribute="trailing" constant="16" id="ITx-0n-mDQ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qNr-x7-9pp" secondAttribute="trailing" constant="16" id="Jmj-Uk-huM"/>
+                            <constraint firstItem="Zto-zH-Yc7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="JqT-og-Smt"/>
                             <constraint firstItem="Zto-zH-Yc7" firstAttribute="top" secondItem="NbT-wO-huR" secondAttribute="bottom" constant="8" id="LQ8-K4-nqi"/>
                             <constraint firstItem="qNr-x7-9pp" firstAttribute="top" secondItem="kON-N2-phe" secondAttribute="bottom" constant="8" id="Mhl-se-h4d"/>
                             <constraint firstItem="NbT-wO-huR" firstAttribute="top" secondItem="bfq-Z9-aFv" secondAttribute="bottom" constant="8" id="Q7L-Z2-ux3"/>
-                            <constraint firstItem="bfq-Z9-aFv" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="8" id="Sew-Xg-WlP"/>
-                            <constraint firstItem="NbT-wO-huR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="U7m-TT-IYW"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bfq-Z9-aFv" secondAttribute="trailing" constant="8" id="ab0-tP-oDM"/>
+                            <constraint firstItem="bfq-Z9-aFv" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="Sew-Xg-WlP"/>
+                            <constraint firstItem="NbT-wO-huR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="U7m-TT-IYW"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bfq-Z9-aFv" secondAttribute="trailing" constant="16" id="ab0-tP-oDM"/>
                             <constraint firstItem="wgP-8O-WbH" firstAttribute="top" secondItem="Zto-zH-Yc7" secondAttribute="bottom" constant="8" id="d6h-gT-y1O"/>
-                            <constraint firstItem="bfq-Z9-aFv" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="8" id="g1x-sa-D3u"/>
-                            <constraint firstItem="qNr-x7-9pp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="hwu-gv-kd6"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="NbT-wO-huR" secondAttribute="trailing" constant="8" id="kxe-Gt-MgS"/>
+                            <constraint firstItem="bfq-Z9-aFv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="g1x-sa-D3u"/>
+                            <constraint firstItem="qNr-x7-9pp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="hwu-gv-kd6"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="NbT-wO-huR" secondAttribute="trailing" constant="16" id="kxe-Gt-MgS"/>
                             <constraint firstItem="kON-N2-phe" firstAttribute="top" secondItem="wgP-8O-WbH" secondAttribute="bottom" constant="8" id="pLE-RE-adC"/>
-                            <constraint firstItem="wgP-8O-WbH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="qz6-RR-W6b"/>
+                            <constraint firstItem="wgP-8O-WbH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="qz6-RR-W6b"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
